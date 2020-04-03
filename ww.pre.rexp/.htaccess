@@ -1,0 +1,29 @@
+RewriteEngine On
+#Un Parametro
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)$ index.php?valor1=$1
+ 
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)/$ index.php?valor1=$1
+ 
+ 
+#Dos Parametros
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)/(.*)$ index.php?valor1=$1&valor2=$2 
+ 
+#RewriteCond %{REQUEST_FILENAME} !-f
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteRule ^(.*)/(.*)/$ index.php?valor1=$1&valor2=$2
+
+
+Options -Indexes +FollowSymLinks
+directoryindex index.php
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f 
+ 
+RewriteEngine On
+RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /?valor1=$1&valor2=$2&valor3=$3 [L]
+ 
