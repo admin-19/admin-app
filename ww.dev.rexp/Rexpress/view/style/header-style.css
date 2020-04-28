@@ -1,0 +1,67 @@
+div.contenedor-header{
+    background: rgb(0, 64, 143);
+    border-radius: 2px;
+    border-bottom: 2px solid rgb(1, 27, 58) ;
+    border-left: 2px solid rgb(1, 27, 58) ; 
+    overflow: hidden;
+}
+.header-content{
+    width: 90%;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+.header-content .header-title{
+    line-height: 40px;
+    float: left; 
+}
+.header-content .header-list{
+    float: right;
+    line-height: 40px;
+}
+.header-list ul li{
+    list-style: none;
+    float: left;
+}
+.header-list ul li a{
+    /* border: black 1px solid; */
+    display: inline-block;
+    color: antiquewhite;
+    padding: 10px 20px;
+    line-height: normal;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease;
+    
+}
+.header-title h1 a{
+    color: antiquewhite;
+    padding: 10px 20px;
+    line-height: normal;
+    font-weight: bold;
+    -webkit-transition:all 500ms ease;
+    -o-transition:all 500ms ease;
+    transition:all 500ms ease; 
+}
+.header-list ul li a:hover{
+    background: antiquewhite;
+    color: rgb(1, 27, 58) ;
+    font-weight: bold;
+    border-radius: 50px;
+    /* padding-bottom: 3px; */
+} 
+.header-title h1 a:hover{
+    background: antiquewhite;
+    color: rgb(1, 27, 58) ;
+    font-weight: bold;
+    border-radius: 50px;
+    /* padding-bottom: 3px; */
+}
+header a{
+    text-decoration: none !important;
+    color: beige;
+}
+.bg-light {
+    background-color: rgb(0, 64, 143)!important;
+}

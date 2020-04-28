@@ -1,0 +1,15 @@
+            // output data of each row
+            //  while($row = mysqli_fetch_assoc($result)) {
+            //     echo " id: " . $row["id_user"].
+            //          " fecha: " . $row["fecha"].
+            //          " cantidad Ingresada: " . $row["cantidad_ingresada"].
+            //          " cantidad total: ". $row["cantidad_total"]."<br>";
+            // }
+
+            //    while($row = mysqli_fetch_assoc($result)) {
+            //     echo    " id: " . $row["id_user"].
+            //             " nombre: " . $row["nombre"].
+            //             " apellido: " . $row["apellido"].
+            //             " correo: ". $row["correo"].
+            //             "password:".$row['password']."<br>";
+            //   }

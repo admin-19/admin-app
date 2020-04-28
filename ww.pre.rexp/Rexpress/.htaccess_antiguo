@@ -1,0 +1,19 @@
+#oculta la lista de archivos de el direcctorio seleccionado
+#lanza un error 403 
+Options -Indexes
+
+#vista de erros del servidor
+
+ErrorDocument 403 /Rexpress/403.php
+ErrorDocument 404 /Rexpress/404.php
+ErrorDocument 500 /Rexpress/500.php
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+# RewriteRule ^pr/(.*)$  pr.php?m=$1 [L]
+RewriteRule ^view/(.*)$    index.php?view=$1 [L]
+
+php_flag display_errors Off
+php_flag log_errors On
+php_value error_log errorLogs/php_error.log

@@ -1,0 +1,33 @@
+
+apache_request_headers() - Obtiene todas las cabeceras HTTP
+
+get_headers() -devuelve un Array con las cabeceras enviadas por el servidor en respuesta a una petición HTTP.
+ej:get_headers($url, 1)
+
+/*en el formulario para valida el typo de envio
+enctype="multipart/form-data"
+/*
+application\/x-www-form-urlencoded
+multipart/form-data
+
+/* Obtener el código de la respuesta actual y establecer uno nuevo
+var_dump(http_response_code(404));
+
+/* Obtener el nuevo código de respuesta
+var_dump(http_response_code());
+
+/* setcookie() agrega una cabecera de respuesta propia */
+setcookie('foo', 'bar');
+
+/* Definir un encabezado de respuesta personalizado
+   Este será ignorado por la mayoría de los clientes */
+header("X-Sample-Test: foo");
+
+/* Especificar el contenido de texto plano en nuestra respuesta */
+header('Content-type: text/plain');
+
+/* ¿Qué encabezados se van a enviar? */
+var_dump(headers_list());
+
+/*RECARGA LA PAGINA ACTUAL*/
+$_SERVER["PHP_SELF"]

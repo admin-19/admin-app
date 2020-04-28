@@ -1,4 +1,16 @@
+Options -Indexes +FollowSymLinks
 RewriteEngine On
+directoryindex index.php
+RewriteCond %{HTTPS} off
+RewriteCond %{SCRIPT_FILENAME} !-d  
+RewriteCond %{SCRIPT_FILENAME} !-f 
+RewriteRule ^api.1.0/([^/]*)/([^/]*)/([^/]*)$ /?valor1=$1&valor2=$2&valor3=$3 [L]
+RewriteRule ^api.1.0/([^/]*)$ index2.php?valor1=$1 [L]
+
+
+php_flag display_errors Off
+php_flag log_errors On
+php_value error_log api.1.0.0/logs/dev_rexp.log
 #Un Parametro
 #RewriteCond %{REQUEST_FILENAME} !-f
 #RewriteCond %{REQUEST_FILENAME} !-d
@@ -18,12 +30,26 @@ RewriteEngine On
 #RewriteCond %{REQUEST_FILENAME} !-d
 #RewriteRule ^(.*)/(.*)/$ index.php?valor1=$1&valor2=$2
 
+# RewriteEngine on
+# RewriteCond %{SERVER_NAME} =test.proyecto.local
+# RewriteRule ^ https://%{SERVER_NAME}%{REQUEST_URI} [END,QSA,R=permanent]
+# RewriteRule ^(.*)$ index.php/$1
 
-Options -Indexes +FollowSymLinks
-directoryindex index.php
-RewriteCond %{SCRIPT_FILENAME} !-d  
-RewriteCond %{SCRIPT_FILENAME} !-f 
- 
-RewriteEngine On
-RewriteRule ^([^/]*)/([^/]*)/([^/]*)$ /?valor1=$1&valor2=$2&valor3=$3 [L]
+# RewriteEngine On
+
+# #Redireccionar a https cuando tiene www
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP_HOST} ^www\.
+# RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# #Redireccionar a https con www cuando no tiene https ni www
+# RewriteCond %{HTTPS} off
+# RewriteCond %{HTTP_HOST} !^www\.
+# RewriteRule .* https://www.tuweb.com%{REQUEST_URI} [L,R=301]
+
+# #Redireccionar a www cuando tiene https
+# RewriteCond %{HTTPS} on
+# RewriteCond %{HTTP_HOST} !^www\.
+# RewriteRule .* https://www.tuweb.com%{REQUEST_URI} [L,R=301]
+
  

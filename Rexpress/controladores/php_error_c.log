@@ -1,0 +1,104 @@
+[04-Apr-2020 00:51:31 Europe/Berlin] Info=> prt_dtroy_session ; mesaje=>session destroy ; home=null
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=ZWRpc29u
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=emFtb3JhMTk5MA==
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=ZWRpc29u
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=emFtb3JhMTk5MA==
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=ZWRpc29uAND password='zamora1990'
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[04-Apr-2020 00:51:48 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[04-Apr-2020 00:51:48 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[04-Apr-2020 01:43:09 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[04-Apr-2020 01:43:09 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=ZWRkeXphbW9yYQ==
+[04-Apr-2020 01:43:09 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=MTIzNDU=
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=ZWRkeXphbW9yYQ==
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=MTIzNDU=
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=ZWRkeXphbW9yYQ==AND password='12345'
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados1
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[04-Apr-2020 01:43:10 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>correo encontrado ; registros devueltos 1
+[04-Apr-2020 01:43:10 Europe/Berlin] PHP Notice:  Undefined index: tipo in F:\xampp_m\admin-app\ww.dev.rexp\Rexpress\controladores\pr_ini_session.php on line 45
+[04-Apr-2020 01:43:10 Europe/Berlin] PHP Notice:  Undefined index: activo in F:\xampp_m\admin-app\ww.dev.rexp\Rexpress\controladores\pr_ini_session.php on line 46
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> prt_ini_session ; sessiom=>On;  mesaje=>Edison
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> prt_ini_session ; sessiom=>On;  mesaje=>edisonzamoradaudo@gmail.com
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> prt_ini_session ; sessiom=>On;  mesaje=>
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> prt_ini_session ; sessiom=>On;  mesaje=>
+[04-Apr-2020 01:43:10 Europe/Berlin] Info=> prt_ini_session ; sessiom=>On;  mesaje=>On
+[04-Apr-2020 01:43:26 Europe/Berlin] Info=> prt_dtroy_session ; mesaje=>session destroy ; home=null
+[17-Apr-2020 05:37:25 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[17-Apr-2020 05:37:25 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=
+[17-Apr-2020 05:37:25 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=
+[17-Apr-2020 05:37:25 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=
+[17-Apr-2020 05:37:25 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=
+[17-Apr-2020 05:37:25 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[17-Apr-2020 05:37:25 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=AND password=''
+[17-Apr-2020 05:37:25 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[17-Apr-2020 05:37:26 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[17-Apr-2020 05:37:26 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[17-Apr-2020 05:37:26 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[17-Apr-2020 05:37:26 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=AND password=''
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[17-Apr-2020 06:45:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[17-Apr-2020 06:45:29 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=c3M=
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=c3M=
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=c3M=AND password=''
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[17-Apr-2020 06:45:39 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[17-Apr-2020 06:45:39 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[18-Apr-2020 05:57:10 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[18-Apr-2020 05:57:10 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=c3Nz
+[18-Apr-2020 05:57:10 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=ZGRkZA==
+[18-Apr-2020 05:57:10 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=c3Nz
+[18-Apr-2020 05:57:10 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=ZGRkZA==
+[18-Apr-2020 05:57:10 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[18-Apr-2020 05:57:10 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=c3NzAND password='dddd'
+[18-Apr-2020 05:57:10 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[18-Apr-2020 05:57:11 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[18-Apr-2020 05:57:11 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[18-Apr-2020 05:57:11 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[18-Apr-2020 05:57:11 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=ZHNk
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=c2RzZA==
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=ZHNk
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=c2RzZA==
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=ZHNkAND password='sdsd'
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[18-Apr-2020 05:57:22 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[18-Apr-2020 05:57:22 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
+[18-Apr-2020 05:57:28 Europe/Berlin] Info=> prt_ini_session ; mesaje=>metodo-peticion=post
+[18-Apr-2020 05:57:28 Europe/Berlin] Info=> prt_ini_session ; mesaje=>usuario=c2RzZA==
+[18-Apr-2020 05:57:29 Europe/Berlin] Info=> prt_ini_session ; mesaje=>password=c2RzZA==
+[18-Apr-2020 05:57:29 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>nombre=c2RzZA==
+[18-Apr-2020 05:57:29 Europe/Berlin] Info=> Usuario->Auth_Usuario() ; mesaje=>password=c2RzZA==
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>tabla= usuario
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=>SELECT * FROM usuario WHERE nombreUsuario=c2RzZA==AND password='sdsd'
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>ConeccionDB->starConnect() ; mensaje=>coneccion realizada....
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>RexpressDao ; mensaje=>numero de resultados0
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>ConeccionDB->closeConnect() ; mensaje=> coneccion cerrada
+[18-Apr-2020 05:57:29 Europe/Berlin] info=>AutentificacionUsuario ; mensaje=> correo no encontrado ; registros devueltos 0
+[18-Apr-2020 05:57:29 Europe/Berlin] Info=> prt_ini_session ; sessiom=>Off;  mesaje=>null
